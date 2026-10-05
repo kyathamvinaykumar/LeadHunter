@@ -1,0 +1,1 @@
+"""LeadHunter application package."""

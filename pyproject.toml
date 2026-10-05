@@ -1,0 +1,16 @@
+[project]
+name = "leadhunter"
+version = "0.1.0"
+description = "Discover local business leads with Google Places API"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2,<4.0",
+    "python-dotenv>=1.0,<2.0",
+    "requests>=2.32,<3.0",
+    "streamlit>=1.49,<2.0",
+    "pydeck>=0.9,<1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
